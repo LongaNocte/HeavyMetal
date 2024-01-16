@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Serif 4', serif;
+    background-color: #FFFFFF;
+    font-family: 'Iceberg', sans-serif;
+font-family: 'IM Fell Double Pica', serif;
+}
+/*inicio header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: fixed;
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 100vw;
+    border: 2px solid rgb(239, 239, 239);
+}
+
+nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-style: italic;
+}
+h1#logo{
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 32px;
+    
+}
+a.titulosprincipais{
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+/*final header*/
+
+/*inicio do main*/
+div.Products{
+    display: flex;
+    justify-content: space-around;    
+}
+.produto1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-left: 50px;
+}
+img.StatikkShiv{
+    height: 300px;
+    width: 200px;
+    margin-top: 150px;
+}
+#name1{
+    font-style: italic;
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 35px;
+}
+.p1{
+    text-align: center;
+    display: flex;
+    align-items: end;
+    color: #FFFFFF;
+}
+/*final do main*/
